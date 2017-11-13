@@ -24,15 +24,64 @@
         
         <div id="main-container">
             <div id="topRow">
-                
+                <table border=1 id="topRowTable">
+                    <tr>
+                        <td>Out of this many games: </td>
+                        <td><input type="text"></td>
+                        <td id="errorMessage">Incorrect input!!</td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="RunGame();">Click to Run!!</button></td>
+                    </tr>
+                </table>
             </div>
+            
+            <br>
             
             <div id="middleRow">
-                   
+                   <table border=1 id="roundSummaryTable">
+                       <tr>
+                           <td>Round</td>
+                           <td>Player 1 Moves</td>
+                           <td>Player 2 Moves</td>
+                           <td>Winner</td>
+                       </tr>
+                   </table>
             </div>
             
+            <br>
+            
             <div id="bottomRow">
-               
+               <table border=1 id="winnerReportTable">
+                   <tr>
+                    <td>Player 1 Wins</td> 
+                    <td>Player 2 Wins</td>
+                    <td>Ties</td>
+                   </tr>
+                    
+                   <tr>
+                    <td> </td> 
+                    <td> </td>
+                    <td> </td>                       
+                   </tr> 
+                   
+                   <tr>
+                    <td>Player 1 Win %</td> 
+                    <td>Player 2 Win %</td>
+                    <td>Ties %</td>                       
+                   </tr>
+                   
+                   <tr>
+                    <td></td> 
+                    <td></td>
+                    <td></td>                       
+                   </tr>
+                   
+                   <tr>
+                    <td>Winner</td>
+                    <td><th></th></td>                       
+                   </tr>
+               </table>
             </div>
         </div>
     </body>

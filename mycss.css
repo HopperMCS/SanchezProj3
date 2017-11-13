@@ -1,0 +1,70 @@
+/*-----------------------------------------------------------------
+    Tag Selectors
+-------------------------------------------------------------------*/
+body{
+    margin:auto; 
+}
+
+nav{
+    padding:14px 16px;    
+}
+
+a{
+    
+}
+
+th{
+   
+}
+
+img{
+    
+}
+
+td{
+    
+}
+
+/*-----------------------------------------------------------------
+    ID Selectors
+-------------------------------------------------------------------*/
+
+#main-container{
+    margin:auto;
+}
+
+#topRow{
+    
+}
+#middleRow{
+    overflow-y:auto;
+}
+
+#bottomRow{
+    
+}
+
+#errorMessage{
+    
+}
+
+#topRowTable{
+    margin:auto;
+}
+
+#winnerReportTable{
+    margin:auto;
+}
+
+#roundSummaryTable{
+    margin:auto;
+}
+
+#winner{
+    
+}
+
+
+
+
+
